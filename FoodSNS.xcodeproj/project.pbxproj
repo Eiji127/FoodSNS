@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,34 @@
 		98DF72CD2556306F00A9CC78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98DF72CB2556306F00A9CC78 /* Main.storyboard */; };
 		98DF72CF2556307400A9CC78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98DF72CE2556307400A9CC78 /* Assets.xcassets */; };
 		98DF72D22556307400A9CC78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98DF72D02556307400A9CC78 /* LaunchScreen.storyboard */; };
+		98DF72E4255631D700A9CC78 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF72E3255631D700A9CC78 /* User.swift */; };
+		98DF72E8255631E100A9CC78 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF72E7255631E100A9CC78 /* Tweet.swift */; };
+		98DF72EB255631FB00A9CC78 /* AccountHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF72EA255631FB00A9CC78 /* AccountHeader.swift */; };
+		98DF72EE2556320400A9CC78 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF72ED2556320400A9CC78 /* TweetCell.swift */; };
+		98DF72F12556321000A9CC78 /* CaptionTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF72F02556321000A9CC78 /* CaptionTextView.swift */; };
+		98DF72F42556321700A9CC78 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF72F32556321600A9CC78 /* UserCell.swift */; };
+		98DF72F82556323A00A9CC78 /* TweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF72F72556323A00A9CC78 /* TweetViewModel.swift */; };
+		98DF72FC2556326000A9CC78 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF72FB2556326000A9CC78 /* LoginController.swift */; };
+		98DF73002556327200A9CC78 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF72FF2556327200A9CC78 /* RegistrationController.swift */; };
+		98DF73032556328100A9CC78 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF73022556328100A9CC78 /* MainTabController.swift */; };
+		98DF73062556329100A9CC78 /* PostedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF73052556329100A9CC78 /* PostedController.swift */; };
+		98DF7309255632A000A9CC78 /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF7308255632A000A9CC78 /* ExploreController.swift */; };
+		98DF730C255632B000A9CC78 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF730B255632B000A9CC78 /* MapController.swift */; };
+		98DF730F255632BE00A9CC78 /* AccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF730E255632BE00A9CC78 /* AccountController.swift */; };
+		98DF7312255632DB00A9CC78 /* DetailTweetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF7311255632DB00A9CC78 /* DetailTweetController.swift */; };
+		98DF7315255632EE00A9CC78 /* UploadPostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF7314255632EE00A9CC78 /* UploadPostController.swift */; };
+		98DF73182556330400A9CC78 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF73172556330400A9CC78 /* AuthService.swift */; };
+		98DF731C2556331000A9CC78 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF731B2556331000A9CC78 /* UserService.swift */; };
+		98DF731F2556332200A9CC78 /* TweetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF731E2556332200A9CC78 /* TweetService.swift */; };
+		98DF73222556333000A9CC78 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF73212556333000A9CC78 /* Extension.swift */; };
+		98DF73252556334100A9CC78 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF73242556334100A9CC78 /* Utilities.swift */; };
+		98DF73282556334A00A9CC78 /* Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF73272556334A00A9CC78 /* Contents.swift */; };
+		98DF733E2556379900A9CC78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98DF733D2556379900A9CC78 /* GoogleService-Info.plist */; };
+		ACE0E31185E92E116EB3B5E4 /* Pods_FoodSNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B2023F84A9528D816B74C1 /* Pods_FoodSNS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C635C5C8D12E6B73BAB52CB /* Pods-FoodSNS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSNS.debug.xcconfig"; path = "Target Support Files/Pods-FoodSNS/Pods-FoodSNS.debug.xcconfig"; sourceTree = "<group>"; };
 		98DF72C22556306F00A9CC78 /* FoodSNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodSNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98DF72C52556306F00A9CC78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98DF72C72556306F00A9CC78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +49,31 @@
 		98DF72CE2556307400A9CC78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98DF72D12556307400A9CC78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98DF72D32556307400A9CC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98DF72E3255631D700A9CC78 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		98DF72E7255631E100A9CC78 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		98DF72EA255631FB00A9CC78 /* AccountHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountHeader.swift; sourceTree = "<group>"; };
+		98DF72ED2556320400A9CC78 /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
+		98DF72F02556321000A9CC78 /* CaptionTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionTextView.swift; sourceTree = "<group>"; };
+		98DF72F32556321600A9CC78 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		98DF72F72556323A00A9CC78 /* TweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewModel.swift; sourceTree = "<group>"; };
+		98DF72FB2556326000A9CC78 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		98DF72FF2556327200A9CC78 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		98DF73022556328100A9CC78 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		98DF73052556329100A9CC78 /* PostedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostedController.swift; sourceTree = "<group>"; };
+		98DF7308255632A000A9CC78 /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
+		98DF730B255632B000A9CC78 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		98DF730E255632BE00A9CC78 /* AccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountController.swift; sourceTree = "<group>"; };
+		98DF7311255632DB00A9CC78 /* DetailTweetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTweetController.swift; sourceTree = "<group>"; };
+		98DF7314255632EE00A9CC78 /* UploadPostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostController.swift; sourceTree = "<group>"; };
+		98DF73172556330400A9CC78 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		98DF731B2556331000A9CC78 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		98DF731E2556332200A9CC78 /* TweetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetService.swift; sourceTree = "<group>"; };
+		98DF73212556333000A9CC78 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		98DF73242556334100A9CC78 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		98DF73272556334A00A9CC78 /* Contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contents.swift; sourceTree = "<group>"; };
+		98DF733D2556379900A9CC78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E31090E9A566D7CEBF212061 /* Pods-FoodSNS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSNS.release.xcconfig"; path = "Target Support Files/Pods-FoodSNS/Pods-FoodSNS.release.xcconfig"; sourceTree = "<group>"; };
+		F6B2023F84A9528D816B74C1 /* Pods_FoodSNS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodSNS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +81,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE0E31185E92E116EB3B5E4 /* Pods_FoodSNS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30552086A352C4D57821F074 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C635C5C8D12E6B73BAB52CB /* Pods-FoodSNS.debug.xcconfig */,
+				E31090E9A566D7CEBF212061 /* Pods-FoodSNS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7F437A7171A296721B279BB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6B2023F84A9528D816B74C1 /* Pods_FoodSNS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		98DF72B92556306F00A9CC78 = {
 			isa = PBXGroup;
 			children = (
 				98DF72C42556306F00A9CC78 /* FoodSNS */,
 				98DF72C32556306F00A9CC78 /* Products */,
+				30552086A352C4D57821F074 /* Pods */,
+				7F437A7171A296721B279BB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +126,12 @@
 		98DF72C42556306F00A9CC78 /* FoodSNS */ = {
 			isa = PBXGroup;
 			children = (
+				98DF72DD255630A000A9CC78 /* Model */,
+				98DF72DA2556308900A9CC78 /* ViewModel */,
+				98DF72DE2556310400A9CC78 /* View */,
+				98DF72DF2556310C00A9CC78 /* Controller */,
+				98DF72E02556311700A9CC78 /* API */,
+				98DF72E12556312300A9CC78 /* Utilties */,
 				98DF72C52556306F00A9CC78 /* AppDelegate.swift */,
 				98DF72C72556306F00A9CC78 /* SceneDelegate.swift */,
 				98DF72C92556306F00A9CC78 /* ViewController.swift */,
@@ -63,8 +139,81 @@
 				98DF72CE2556307400A9CC78 /* Assets.xcassets */,
 				98DF72D02556307400A9CC78 /* LaunchScreen.storyboard */,
 				98DF72D32556307400A9CC78 /* Info.plist */,
+				98DF733D2556379900A9CC78 /* GoogleService-Info.plist */,
 			);
 			path = FoodSNS;
+			sourceTree = "<group>";
+		};
+		98DF72DA2556308900A9CC78 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				98DF72F72556323A00A9CC78 /* TweetViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		98DF72DD255630A000A9CC78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98DF72E3255631D700A9CC78 /* User.swift */,
+				98DF72E7255631E100A9CC78 /* Tweet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98DF72DE2556310400A9CC78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98DF72F32556321600A9CC78 /* UserCell.swift */,
+				98DF72EA255631FB00A9CC78 /* AccountHeader.swift */,
+				98DF72ED2556320400A9CC78 /* TweetCell.swift */,
+				98DF72F02556321000A9CC78 /* CaptionTextView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		98DF72DF2556310C00A9CC78 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				98DF72FA2556324300A9CC78 /* Authentication */,
+				98DF73022556328100A9CC78 /* MainTabController.swift */,
+				98DF73052556329100A9CC78 /* PostedController.swift */,
+				98DF7308255632A000A9CC78 /* ExploreController.swift */,
+				98DF730B255632B000A9CC78 /* MapController.swift */,
+				98DF730E255632BE00A9CC78 /* AccountController.swift */,
+				98DF7311255632DB00A9CC78 /* DetailTweetController.swift */,
+				98DF7314255632EE00A9CC78 /* UploadPostController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		98DF72E02556311700A9CC78 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				98DF73172556330400A9CC78 /* AuthService.swift */,
+				98DF731B2556331000A9CC78 /* UserService.swift */,
+				98DF731E2556332200A9CC78 /* TweetService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		98DF72E12556312300A9CC78 /* Utilties */ = {
+			isa = PBXGroup;
+			children = (
+				98DF73212556333000A9CC78 /* Extension.swift */,
+				98DF73242556334100A9CC78 /* Utilities.swift */,
+				98DF73272556334A00A9CC78 /* Contents.swift */,
+			);
+			path = Utilties;
+			sourceTree = "<group>";
+		};
+		98DF72FA2556324300A9CC78 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				98DF72FB2556326000A9CC78 /* LoginController.swift */,
+				98DF72FF2556327200A9CC78 /* RegistrationController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98DF72D62556307400A9CC78 /* Build configuration list for PBXNativeTarget "FoodSNS" */;
 			buildPhases = (
+				C7A081487B0DACBCE46A1393 /* [CP] Check Pods Manifest.lock */,
 				98DF72BE2556306F00A9CC78 /* Sources */,
 				98DF72BF2556306F00A9CC78 /* Frameworks */,
 				98DF72C02556306F00A9CC78 /* Resources */,
+				505379065C56CE582F17A5B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98DF72D22556307400A9CC78 /* LaunchScreen.storyboard in Resources */,
+				98DF733E2556379900A9CC78 /* GoogleService-Info.plist in Resources */,
 				98DF72CF2556307400A9CC78 /* Assets.xcassets in Resources */,
 				98DF72CD2556306F00A9CC78 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +284,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		505379065C56CE582F17A5B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodSNS/Pods-FoodSNS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodSNS/Pods-FoodSNS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodSNS/Pods-FoodSNS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7A081487B0DACBCE46A1393 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodSNS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		98DF72BE2556306F00A9CC78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98DF73222556333000A9CC78 /* Extension.swift in Sources */,
+				98DF730C255632B000A9CC78 /* MapController.swift in Sources */,
+				98DF7315255632EE00A9CC78 /* UploadPostController.swift in Sources */,
+				98DF73062556329100A9CC78 /* PostedController.swift in Sources */,
+				98DF72FC2556326000A9CC78 /* LoginController.swift in Sources */,
+				98DF72E4255631D700A9CC78 /* User.swift in Sources */,
+				98DF73252556334100A9CC78 /* Utilities.swift in Sources */,
+				98DF7312255632DB00A9CC78 /* DetailTweetController.swift in Sources */,
+				98DF730F255632BE00A9CC78 /* AccountController.swift in Sources */,
+				98DF73182556330400A9CC78 /* AuthService.swift in Sources */,
+				98DF72EE2556320400A9CC78 /* TweetCell.swift in Sources */,
+				98DF73282556334A00A9CC78 /* Contents.swift in Sources */,
+				98DF72E8255631E100A9CC78 /* Tweet.swift in Sources */,
+				98DF72EB255631FB00A9CC78 /* AccountHeader.swift in Sources */,
+				98DF731F2556332200A9CC78 /* TweetService.swift in Sources */,
 				98DF72CA2556306F00A9CC78 /* ViewController.swift in Sources */,
+				98DF73032556328100A9CC78 /* MainTabController.swift in Sources */,
+				98DF72F42556321700A9CC78 /* UserCell.swift in Sources */,
+				98DF731C2556331000A9CC78 /* UserService.swift in Sources */,
+				98DF72F82556323A00A9CC78 /* TweetViewModel.swift in Sources */,
 				98DF72C62556306F00A9CC78 /* AppDelegate.swift in Sources */,
+				98DF7309255632A000A9CC78 /* ExploreController.swift in Sources */,
+				98DF72F12556321000A9CC78 /* CaptionTextView.swift in Sources */,
+				98DF73002556327200A9CC78 /* RegistrationController.swift in Sources */,
 				98DF72C82556306F00A9CC78 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +499,7 @@
 		};
 		98DF72D72556307400A9CC78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C635C5C8D12E6B73BAB52CB /* Pods-FoodSNS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,12 +513,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.aeg.qed.FoodSNS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		98DF72D82556307400A9CC78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31090E9A566D7CEBF212061 /* Pods-FoodSNS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,7 +533,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.aeg.qed.FoodSNS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

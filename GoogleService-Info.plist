@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>708425698666-5t5m9e1045brposi5mgc46rchbeg4j3g.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.708425698666-5t5m9e1045brposi5mgc46rchbeg4j3g</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCYClHXXquUK2BgC2280wyBB1xNOq3xDD0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>708425698666</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.aeg.qed.FoodSNS</string>
+	<key>PROJECT_ID</key>
+	<string>foodsns-93e1d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>foodsns-93e1d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:708425698666:ios:7b6e800b1f5b4d84b5a913</string>
+	<key>DATABASE_URL</key>
+	<string>https://foodsns-93e1d.firebaseio.com</string>
+</dict>
+</plist>

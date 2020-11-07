@@ -1,11 +1,12 @@
 //
 //  AppDelegate.swift
-//  FoodSNS
+//  ChemistrySNS
 //
-//  Created by 白数叡司 on 2020/11/07.
+//  Created by 白数叡司 on 2020/10/13.
 //
 
 import UIKit
+import Firebase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -13,7 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        FirebaseApp.configure()
+        
         return true
     }
 
